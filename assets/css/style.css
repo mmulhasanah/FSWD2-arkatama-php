@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.row {
+  margin-bottom: 10px;
+}
+.label {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+}
+.value {
+  display: inline-block;
+}
+.photo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.photo img {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
